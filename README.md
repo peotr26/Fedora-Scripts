@@ -13,3 +13,7 @@ A script that install the major Microsoft fonts such as Times New Roman or Arial
 ## Github_desktop
 
 A script that install the Github desktop software on Fedora.
+
+## ZSH_setup (experimental)
+
+A script that setup my ZSH config.
