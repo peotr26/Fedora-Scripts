@@ -1,7 +1,6 @@
 # Fedora-Scripts 
 
-A group of scripts for Fedora
-
+A group of scripts for Fedora  
 I recommand checking the script before executing them so you can see what it will do. It is the nice thing with FOSS.
 
 ## DNF-Boost
