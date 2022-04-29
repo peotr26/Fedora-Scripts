@@ -1,4 +1,4 @@
-# /bin/sh
+#! /bin/bash
 
 sudo dnf --assumeyes install zsh zsh-autosuggestions
 

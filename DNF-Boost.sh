@@ -1,4 +1,4 @@
-#/bin/sh
+#! /bin/bash
 
 cp /etc/dnf/dnf.conf /etc/dnf.dnf.conf.bak #Create a backup
 
