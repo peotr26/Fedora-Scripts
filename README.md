@@ -43,3 +43,20 @@ A script that setup my ZSH config.
 ```
 wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/ZSH_setup.sh | bash
 ```
+
+## DaVinci-Resove_Installer.sh
+
+A script that will install DaVinci Resolve.
+
+During the process of the script you will be asked if you want to be redirected to Black Magic Design website to download the ZIP file due to the fact that they don't give access to a long-term link to download the ZIP file.
+
+### Instruction
+
+Go into your download folder :
+```
+cd ~/Downloads #Or downloads in your language
+```
+
+```
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/DaVinci-Resolve_Installer.sh | bash
+```
