@@ -21,7 +21,7 @@ A script that install the major Microsoft fonts such as Times New Roman or Arial
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/MS_Fonts_fedora.sh | bash
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/MS_Fonts_fedora.sh | sudo bash
 ```
 
 ## Github_desktop
