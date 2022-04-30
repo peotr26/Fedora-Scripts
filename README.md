@@ -11,7 +11,7 @@ A script that boost DNF and help enabling certain features of DNF.
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/DNF-Boost.sh | bash
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/DNF-Boost.sh | sudo bash
 ```
 
 ## MS_Fonts_fedora
@@ -31,10 +31,10 @@ A script that install the Github desktop software on Fedora.
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Github_desktop.sh | bash
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Github_desktop.sh | sudo bash
 ```
 
-## ZSH_setupz
+## ZSH_setup
 
 A script that setup my ZSH config.
 
