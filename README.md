@@ -72,3 +72,15 @@ A script that will install everything to setup Progressive Web Apps in Firefox.
 ```
 wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/PWA_Firefox.sh | bash
 ```
+
+## Numworks_Driver
+
+A script that will download and install the driver for the Numworks calculator.
+
+It will also install Chromium which is necessary to interact with the calculator.
+
+### Instruction
+
+```
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Numworks_Driver.sh | bash
+```
