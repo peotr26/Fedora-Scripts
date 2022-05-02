@@ -17,3 +17,12 @@ unzip 'DaVinci_Resolve_'$Version'_Linux.zip'
 cd 'DaVinci_Resolve_'$Version'_Linux'
 
 ./'DaVinci_Resolve_'$Version'_Linux.run'
+
+while true; do
+    read -p "Do you use Kwin as a window manager [y/N]" yn
+    case $yn in
+        [Yy]* ) wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Ressources/DaVinci-Resolve_Installer/DaVinci_Resolve_main_window_always_with_titlebar_and_frame.txt; cat DaVinci_Resolve_main_window_always_with_titlebar_and_frame.txt >> ~/.config/kwinrulesrc; break;;
+        [Nn]* ) break;;
+        * ) break;;
+    esac
+done

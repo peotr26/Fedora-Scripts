@@ -1,0 +1,7 @@
+
+[b8354900-3558-4b29-9f58-b54165ee7fb1]
+Description=DaVinci Resolve main window always with titlebar and frame
+noborderrule=2
+types=1
+wmclass=resolve
+wmclassmatch=1
