@@ -50,6 +50,8 @@ A script that will install DaVinci Resolve.
 
 During the process of the script you will be asked if you want to be redirected to Black Magic Design website to download the ZIP file due to the fact that they don't give access to a long-term link to download the ZIP file.
 
+In the ressources folder, there is a the `kwin` rule file that you can use to fix the bug in `kwin`
+
 ### Instructions
 
 Go into your download folder :
