@@ -5,3 +5,5 @@ wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Ressources/Nv
 
 sudo cp nvtop /usr/local/bin
 sudo cp nvtop.1 /usr/local/share/man/man1
+
+sudo chmod +x /usr/local/bin/nvtop
