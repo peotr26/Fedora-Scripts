@@ -11,7 +11,8 @@ A script that boost DNF and help enabling certain features of DNF.
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/DNF-Boost.sh | sudo bash
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/DNF-Boost.sh  
+sudo bash DNF-Boost.sh
 ```
 
 ## MS_Fonts_fedora
@@ -21,7 +22,8 @@ A script that install the major Microsoft fonts such as Times New Roman or Arial
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/MS_Fonts_fedora.sh | sudo bash
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/MS_Fonts_fedora.sh  
+sudo bash MS_Fonts_fedora.sh
 ```
 
 ## Github_desktop
@@ -31,7 +33,8 @@ A script that install the Github desktop software on Fedora.
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Github_desktop.sh | sudo bash
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Github_desktop.sh  
+bash Github_desktop.sh
 ```
 
 ## ZSH_setup
@@ -41,7 +44,8 @@ A script that setup my ZSH config.
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/ZSH_setup.sh | bash
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/ZSH_setup.sh  
+bash ZSH_setup.sh
 ```
 
 ## DaVinci-Resove_Installer.sh
@@ -54,13 +58,14 @@ In the ressources folder, there is a the `kwin` rule file that you can use to fi
 
 ### Instructions
 
-Go into your download folder :
+Go into your download folder, or the folder in which you download your files :
 ```
-cd ~/Downloads #Or downloads in your language
+cd ~/Downloads #Or downloads in your language (eg: Téléchargements)
 ```
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/DaVinci-Resolve_Installer.sh | bash
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/DaVinci-Resolve_Installer.sh  
+bash DaVinci-Resolve_Installer.sh
 ```
 
 ## PWA_Firefox (In testing)
@@ -70,7 +75,8 @@ A script that will install everything to setup Progressive Web Apps in Firefox.
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/PWA_Firefox.sh | bash
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/PWA_Firefox.sh  
+bash PWA_Firefox.sh
 ```
 
 ## Numworks_Driver
@@ -82,5 +88,17 @@ It will also install Chromium which is necessary to interact with the calculator
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Numworks_Driver.sh | bash
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Numworks_Driver.sh  
+bash Numworks_Driver.sh
+```
+
+## Nvtop_fedora
+
+A script that install the binary of `nvtop`, a monitoring tool for AMD and Nvidia gpus inspired by `htop`.
+
+### Instructions
+
+```
+wget https://raw.githubusercontent.com/peotr26/Fedora-Script/Nvtop_fedora.sh
+bash Nvtop_fedora.sh
 ```
