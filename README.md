@@ -102,3 +102,14 @@ A script that install the binary of `nvtop`, a monitoring tool for AMD and Nvidi
 wget https://raw.githubusercontent.com/peotr26/Fedora-Script/Nvtop_fedora.sh
 bash Nvtop_fedora.sh
 ```
+
+## Slippi
+
+A script that will install the Slippi AppImage system-wide. This script should normally run on any Linux distro that support AppImages.
+
+### Instructions
+
+```
+wget https://raw.githubusercontent.com/peotr26/Fedora-Script/Slippi.sh
+bash Slippi.sh
+```

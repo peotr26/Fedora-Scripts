@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=2.5.1
+Type=Application
+Terminal=false
+Exec=/usr/locale/bin/Slippi-Launcher-x86_64.AppImage
+Name=Slippi launcher
+Icon=/usr/share/icons/slippi-launcher.png
