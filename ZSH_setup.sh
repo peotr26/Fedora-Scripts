@@ -9,7 +9,6 @@ sed -i 's/robbyrussell/bira/g' ~/.zshrc
 
 sed -i 's/plugins=(git)/plugins=(git dnf zsh-autosuggestions)/g' ~/.zshrc
 
-cd $ZSH/Plugins
-git clone https://github.com/zsh-users/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 exit
