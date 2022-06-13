@@ -113,3 +113,5 @@ A script that will install the Slippi AppImage system-wide. This script should n
 wget https://raw.githubusercontent.com/peotr26/Fedora-Script/Slippi.sh
 bash Slippi.sh
 ```
+
+## Sodtware_Install (Work in progress)
