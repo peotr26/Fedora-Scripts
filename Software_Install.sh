@@ -1,29 +1,29 @@
 #! /bin/bash
 
-sudo dnf copr enable --assumeyes gloriouseggroll/nobara # Add the Nobara repo.
+sudo dnf copr enable -y gloriouseggroll/nobara # Add the Nobara repo.
 
-sudo dnf update --assumeyes --refresh
+sudo dnf update -y --refresh
 
 # Install base nobara packages
 
-sudo dnf install --assumeyes fedora-repos fedora-workstation-repositories nobara-repos nobara-login
+sudo dnf install -y fedora-repos fedora-workstation-repositories nobara-repos nobara-login
 
 # Installing KDE Plasma
 
-sudo dnf install --assumeyes "KDE Plasma Workspaces"
+sudo dnf install -y "KDE Plasma Workspaces"
 
 # Installing Nvidia drivers
 
 gpu_type=$(lspci)
 
-if grep -E "Nvidia|GeForce|NVIDIA" <<< ${gpu_type}; then
+if grep -E "Nvidia|GeForce|NVIDIA" <<< "${gpu_type}"; then
     echo "Installing Nvidia drivers."
     sudo dnf install -assumeyes akmod-nvidia xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-cuda-libs
 fi
 
 # Installing gaming utils
 
-sudo dnf install --assumeyes lutris goverlay protonup-qt protonup mangohud gamescope xpadneo amdgpu-vulkan-switcher
+sudo dnf install -y lutris goverlay protonup-qt protonup mangohud gamescope xpadneo amdgpu-vulkan-switcher
 
 # Installing Xbox controller support
 
@@ -34,7 +34,7 @@ lpf install xone-firmware
 
 # Installing software throught DNF.
 
-sudo dnf install --assumeyes \
+sudo dnf install -y \
 blender \
 chromium \
 dosbox-staging \
@@ -68,9 +68,10 @@ qemu-kvm \
 
 # Installing software trhought Flatpak.
 
-sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo flatpak remote-add --if-not-exists -y flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo flatpak remote-delete -y fedora 
 
-flatpak install --assumeyes \
+flatpak install -y \
 com.play0ad.zeroad \
 com.github.micahflee.torbrowser-launcher \
 com.github.tchx84.Flatseal \
