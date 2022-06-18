@@ -11,7 +11,7 @@ A script that boost DNF and help enabling certain features of DNF.
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/DNF-Boost.sh  
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/DNF-Boost.sh  
 sudo bash DNF-Boost.sh
 ```
 
@@ -22,7 +22,7 @@ A script that install the major Microsoft fonts such as Times New Roman or Arial
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/MS_Fonts_fedora.sh  
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/MS_Fonts_fedora.sh  
 sudo bash MS_Fonts_fedora.sh
 ```
 
@@ -33,7 +33,7 @@ A script that install the Github desktop software on Fedora.
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Github_desktop.sh  
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Github_desktop.sh  
 bash Github_desktop.sh
 ```
 
@@ -44,7 +44,7 @@ A script that setup my ZSH config.
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/ZSH_setup.sh  
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/ZSH_setup.sh  
 bash ZSH_setup.sh
 ```
 
@@ -64,7 +64,7 @@ cd ~/Downloads #Or downloads in your language (eg: Téléchargements)
 ```
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/DaVinci-Resolve_Installer.sh  
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/DaVinci-Resolve_Installer.sh  
 bash DaVinci-Resolve_Installer.sh
 ```
 
@@ -75,7 +75,7 @@ A script that will install everything to setup Progressive Web Apps in Firefox.
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/PWA_Firefox.sh  
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/PWA_Firefox.sh  
 bash PWA_Firefox.sh
 ```
 
@@ -88,7 +88,7 @@ It will also install Chromium which is necessary to interact with the calculator
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Numworks_Driver.sh  
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Numworks_Driver.sh  
 bash Numworks_Driver.sh
 ```
 
@@ -99,7 +99,7 @@ A script that install the binary of `nvtop`, a monitoring tool for AMD and Nvidi
 ### Instructions
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Script/Nvtop_fedora.sh
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Nvtop_fedora.sh
 bash Nvtop_fedora.sh
 ```
 
@@ -110,7 +110,7 @@ A script that will install the Slippi AppImage system-wide. This script should n
 ### Instructions
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Script/Slippi.sh
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Slippi.sh
 bash Slippi.sh
 ```
 
@@ -123,6 +123,6 @@ A script that will install VSCodium and all the extensions I use.
 ### Instructions
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/VSCodium.sh
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/VSCodium.sh
 bash VSCodium.sh
 ```
