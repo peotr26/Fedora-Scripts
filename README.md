@@ -114,4 +114,15 @@ wget https://raw.githubusercontent.com/peotr26/Fedora-Script/Slippi.sh
 bash Slippi.sh
 ```
 
-## Sodtware_Install (Work in progress)
+## Software_Install (Work in progress)
+
+## VSCodium
+
+A script that will install VSCodium and all the extensions I use.
+
+### Instructions
+
+```
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/VSCodium.sh
+bash VSCodium.sh
+```
