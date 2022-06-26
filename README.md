@@ -114,7 +114,16 @@ wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Slipp
 bash Slippi.sh
 ```
 
-## Software_Install (Work in progress)
+## Software_Install
+
+A script that will install a set of application from the rpm repos and flatpak repos.
+
+### Instructions
+
+```
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Software_Install.sh
+bash Software_Install.sh
+```
 
 ## VSCodium
 
