@@ -68,17 +68,6 @@ wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/DaVin
 bash DaVinci-Resolve_installer.sh
 ```
 
-## PWA_firefox (In testing)
-
-A script that will install everything to setup Progressive Web Apps in Firefox.
-
-### Instruction
-
-```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/PWA_firefox.sh  
-bash PWA_firefox.sh
-```
-
 ## Numworks_driver
 
 A script that will download and install the driver for the Numworks calculator.
@@ -156,4 +145,15 @@ A script that will install the Nix package manager on Fedora. The script gives t
 ```
 wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Nix_fedora.sh
 bash Nix_fedora.sh
+```
+
+## PWA_firefox (Deprecated)
+
+A script that will install everything to setup Progressive Web Apps in Firefox.
+
+### Instruction
+
+```
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/PWA_firefox.sh  
+bash PWA_firefox.sh
 ```
