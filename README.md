@@ -135,3 +135,13 @@ A script that will install VSCodium and all the extensions I use.
 wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/VSCodium.sh
 bash VSCodium.sh
 ```
+## Homebrew_Fedora
+
+A script that will install Homebrew on Fedora.
+
+### Instructions
+
+```
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Homebrew_Fedora.sh
+bash Homebrew_Fedora.sh
+```
