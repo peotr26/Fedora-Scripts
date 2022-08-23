@@ -149,7 +149,7 @@ bash Homebrew_fedora.sh
 
 ## Nix_fedora
 
-A script that will install the Nix package manager on Fedora. The script gives the option to choose between multi-user and single user install, for more info refer to [NixOS documentation](https://nixos.org/download.html).
+A script that will install the Nix package manager on Fedora. The script gives the option to choose between multi-user and single user install, for more info refer to the [NixOS documentation](https://nixos.org/download.html).
 
 ### Instructions
 
