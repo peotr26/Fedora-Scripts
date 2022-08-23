@@ -4,26 +4,26 @@
 
 *I recommand checking the script before executing them so you can see what it will do. It is the nice thing with FOSS.*
 
-## DNF-Boost
+## DNF_boost
 
 A script that boost DNF and help enabling certain features of DNF.
 
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/DNF-Boost.sh  
-sudo bash DNF-Boost.sh
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/DNF_boost.sh  
+sudo bash DNF_boost.sh
 ```
 
-## MS_Fonts_fedora
+## MS_fonts_fedora
 
 A script that install the major Microsoft fonts such as Times New Roman or Arial.
 
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/MS_Fonts_fedora.sh  
-sudo bash MS_Fonts_fedora.sh
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/MS_fonts_fedora.sh  
+sudo bash MS_fonts_fedora.sh
 ```
 
 ## Github_desktop
@@ -48,7 +48,7 @@ wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/ZSH_s
 bash ZSH_setup.sh
 ```
 
-## DaVinci-Resove_Installer.sh
+## DaVinci-Resove_installer.sh
 
 A script that will install DaVinci Resolve.
 
@@ -64,22 +64,22 @@ cd ~/Downloads #Or downloads in your language (eg: Téléchargements)
 ```
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/DaVinci-Resolve_Installer.sh  
-bash DaVinci-Resolve_Installer.sh
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/DaVinci-Resolve_installer.sh  
+bash DaVinci-Resolve_installer.sh
 ```
 
-## PWA_Firefox (In testing)
+## PWA_firefox (In testing)
 
 A script that will install everything to setup Progressive Web Apps in Firefox.
 
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/PWA_Firefox.sh  
-bash PWA_Firefox.sh
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/PWA_firefox.sh  
+bash PWA_firefox.sh
 ```
 
-## Numworks_Driver
+## Numworks_driver
 
 A script that will download and install the driver for the Numworks calculator.
 
@@ -88,8 +88,8 @@ It will also install Chromium which is necessary to interact with the calculator
 ### Instruction
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Numworks_Driver.sh  
-bash Numworks_Driver.sh
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Numworks_driver.sh  
+bash Numworks_driver.sh
 ```
 
 ## Nvtop_fedora
@@ -114,15 +114,15 @@ wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Slipp
 bash Slippi.sh
 ```
 
-## Software_Install
+## Software_install
 
 A script that will install a set of application from the rpm repos and flatpak repos.
 
 ### Instructions
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Software_Install.sh
-bash Software_Install.sh
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Software_install.sh
+bash Software_install.sh
 ```
 
 ## VSCodium
@@ -135,13 +135,25 @@ A script that will install VSCodium and all the extensions I use.
 wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/VSCodium.sh
 bash VSCodium.sh
 ```
-## Homebrew_Fedora
+
+## Homebrew_fedora
 
 A script that will install Homebrew on Fedora.
 
 ### Instructions
 
 ```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Homebrew_Fedora.sh
-bash Homebrew_Fedora.sh
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Homebrew_fedora.sh
+bash Homebrew_fedora.sh
+```
+
+## Nix_fedora
+
+A script that will install the Nix package manager on Fedora. The script gives the option to choose between multi-user and single user install, for more info refer to [NixOS documentation](https://nixos.org/download.html).
+
+### Instructions
+
+```
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Nix_fedora.sh
+bash Nix_fedora.sh
 ```
