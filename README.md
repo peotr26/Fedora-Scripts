@@ -150,10 +150,3 @@ bash Nix_fedora.sh
 ## PWA_firefox (Deprecated)
 
 A script that will install everything to setup Progressive Web Apps in Firefox.
-
-### Instruction
-
-```
-wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/PWA_firefox.sh  
-bash PWA_firefox.sh
-```
