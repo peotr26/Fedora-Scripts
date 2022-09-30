@@ -29,4 +29,8 @@ ms-toolsai.jupyter-keymap \
 ms-toolsai.jupyter-renderers \
 pinage404.bash-extension-pack \
 rogalmic.bash-debug \
-timonwong.shellcheck
+timonwong.shellcheck\
+bat67.markdown-extension-pack\
+WakaTime.vscode-wakatime\
+James-Yu.latex-workshop\
+mathematic.vscode-latex
