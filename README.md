@@ -8,9 +8,9 @@
 
 A script that boost DNF and help enabling certain features of DNF.
 
-### Instruction
+### Instructions
 
-```
+```bash
 wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/DNF_boost.sh  
 sudo bash DNF_boost.sh
 ```
@@ -19,9 +19,9 @@ sudo bash DNF_boost.sh
 
 A script that install the major Microsoft fonts such as Times New Roman or Arial.
 
-### Instruction
+### Instructions
 
-```
+```bash
 wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/MS_fonts_fedora.sh  
 sudo bash MS_fonts_fedora.sh
 ```
@@ -30,9 +30,9 @@ sudo bash MS_fonts_fedora.sh
 
 A script that install the Github desktop software on Fedora.
 
-### Instruction
+### Instructions
 
-```
+```bash
 wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Github_desktop.sh  
 bash Github_desktop.sh
 ```
@@ -41,9 +41,9 @@ bash Github_desktop.sh
 
 A script that setup my ZSH config.
 
-### Instruction
+### Instructions
 
-```
+```bash
 wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/ZSH_setup.sh  
 bash ZSH_setup.sh
 ```
@@ -56,14 +56,14 @@ During the process of the script you will be asked if you want to be redirected 
 
 In the ressources folder, there is a the `kwin` rule file that you can use to fix the bug in `kwin`
 
-### Instructions
+### Instructionss
 
 Go into your download folder, or the folder in which you download your files :
-```
+```bash
 cd ~/Downloads #Or downloads in your language (eg: Téléchargements)
 ```
 
-```
+```bash
 wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/DaVinci-Resolve_installer.sh  
 bash DaVinci-Resolve_installer.sh
 ```
@@ -74,9 +74,9 @@ A script that will download and install the driver for the Numworks calculator.
 
 It will also install Chromium which is necessary to interact with the calculator.
 
-### Instruction
+### Instructions
 
-```
+```bash
 wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Numworks_driver.sh  
 bash Numworks_driver.sh
 ```
@@ -87,7 +87,7 @@ A script that install the binary of `nvtop`, a monitoring tool for AMD and Nvidi
 
 ### Instructions
 
-```
+```bash
 wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Nvtop_fedora.sh
 bash Nvtop_fedora.sh
 ```
@@ -98,7 +98,7 @@ A script that will install the Slippi AppImage system-wide. This script should n
 
 ### Instructions
 
-```
+```bash
 wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Slippi.sh
 bash Slippi.sh
 ```
@@ -109,7 +109,7 @@ A script that will install a set of application from the rpm repos and flatpak r
 
 ### Instructions
 
-```
+```bash
 wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Software_install.sh
 bash Software_install.sh
 ```
@@ -118,7 +118,7 @@ bash Software_install.sh
 
 A script that will install VSCodium and all the extensions I use.
 
-### Instructions
+### Instructionss
 
 ```
 wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/VSCodium.sh
@@ -145,6 +145,17 @@ A script that will install the Nix package manager on Fedora. The script gives t
 ```
 wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Nix_fedora.sh
 bash Nix_fedora.sh
+```
+
+## ProtonVPN
+
+A script that will install the ProtonVPN application as well as setting up the ProtonVPN repo and the AppIndicator extension on GNOME which is recommanded.
+
+### Instructions
+
+```bash
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/ProtonVPN.sh
+bash ProtonVPN.sh
 ```
 
 ## PWA_firefox (Deprecated)

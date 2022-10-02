@@ -7,6 +7,6 @@ sudo dnf install -y protonvpn
 if dnf list --installed | grep "gnome-session"
 then
     sudo dnf install libappindicator-gtk3 gnome-shell-extension-appindicator
-    gnome-extention enable appindicator
+    gnome-extension enable appindicatorssupport@rgcjonas.gmail.com
 fi
 
