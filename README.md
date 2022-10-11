@@ -158,6 +158,17 @@ wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Proto
 bash ProtonVPN.sh
 ```
 
+## CMU_fedora
+
+A script that will install the suite of Computer Modern Unicode fonts, notably used by LaTeX. This script is based on yarwelp's [work](https://gist.github.com/yarwelp/392aa0daf6448eb6b05e).
+
+### Insytuctions
+
+```bash
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/CMU_fedora.sh
+bash CMU_fedora.sh
+```
+
 ## PWA_firefox (Deprecated)
 
 A script that will install everything to setup Progressive Web Apps in Firefox.
