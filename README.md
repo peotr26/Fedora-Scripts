@@ -162,11 +162,21 @@ bash ProtonVPN.sh
 
 A script that will install the suite of Computer Modern Unicode fonts, notably used by LaTeX. This script is based on yarwelp's [work](https://gist.github.com/yarwelp/392aa0daf6448eb6b05e).
 
-### Insytuctions
+### Instructions
 
 ```bash
 wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/CMU_fedora.sh
 bash CMU_fedora.sh
+```
+## Auto-CPUFreq
+
+A script that is going to install or uninstall `auto-cpufreq`.
+
+### Instructions
+
+```bash
+wget https://raw.githubusercontent.com/peotr26/Fedora-Scripts/main/Scripts/Auto-CPUFreq.sh
+bash Auto-CPUFreq.sh
 ```
 
 ## PWA_firefox (Deprecated)
