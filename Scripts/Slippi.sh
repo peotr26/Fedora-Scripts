@@ -5,13 +5,13 @@ mkdir Slippi_AppImage
 cd Slippi_AppImage || exit
 
 # Download the AppImage
-wget https://github.com/project-slippi/slippi-launcher/releases/download/v2.5.3/Slippi-Launcher-2.6.1-x86_64.AppImage
+wget https://github.com/project-slippi/slippi-launcher/releases/download/v2.7.0/Slippi-Launcher-2.7.0-x86_64.AppImage
 
 # Make the AppImage executabled
-chmod a+x Slippi-Launcher-2.6.1-x86_64.AppImage
+chmod a+x Slippi-Launcher-2.7.0-x86_64.AppImage
 
 # Rename and move the AppImage to the binary directory
-mv Slippi-Launcher-2.6.1-x86_64.AppImage Slippie-Launcher-x86_64.AppImage
+mv Slippi-Launcher-2.7.0-x86_64.AppImage Slippie-Launcher-x86_64.AppImage
 cp -i Slippi-Launcher-x86_64.AppImage /usr/locale/bin
 
 # Download and move the .desktop file
