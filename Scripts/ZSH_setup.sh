@@ -1,6 +1,6 @@
 #! /bin/bash
 
-sudo dnf -y install zsh
+sudo dnf -y install zsh git
 
 wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 sh install.sh
